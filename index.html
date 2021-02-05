@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="style/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -17,59 +17,79 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#section-creation">Mes projets</a></li>
+                        <li><a href="https://github.com/emmanuelniasse">Github</a></li>
                         <li><a href="mailto:contact@emmanuelniasse.fr">Contactez moi</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
+        <div class="maintenance">
+            <p>
+                Ce site est actuellement en maintenance.
+            </p>
+        </div>
 
         <div id="flex-presentation" class="container">
             <div class="gauche-presentation">
                 <h1>Portfolio</h1>
-                <p class="description">
-                    Développeur Web maîtrisant parfaitement les aspects de la création d'un site internet éfficace, simple 
-                    et intuitif. Bienvenue sur mon portfolio.
-                </span>
+                    <p>
+                        Passionné par le développement web, vous trouverez l'ensemble de mes projets
+                        <a href="#" class="orange">ci-dessous</a>.
+                    </p>
+                    <p>
+                        J'alimenterai au fil du temps ce portfolio qui vous permettra
+                        d'avoir une vision globale sur mon évolution.
+                    </p>
+
+                    <p>Bienvenue ! 😉</p>
+
+                    <!-- <a href="#section-creation" id="btn">Par ici</a> -->
+
             </div>
             <div class="droite-presentation">
-                <img src="img/illustration.png" alt="illustration">
+                <img src="img/illustration.png" alt="illustration" id="illustration">
             </div>
         </div>
     </section>
 
-    <section id="section-creations" class="container">
-        <h2>Créations</h2>
-        <p class="description">Voici toutes mes créations</span>
+    <section id="section-creation" class="container">
+        <h2>Mes projets</h2>
+        <h3 class="orange">HTML / CSS</h3>
+        <p class="description">Voici quelques défis relevés provenants du site
+            <a href="https://www.frontendmentor.io/" class="orange">Frontend Mentor</a> qui propose des maquettes à réaliser, de différents niveaux avec
+            de différents langages sous forme de challenges. Vous trouverez ici les maquettes réalisées en HTML / CSS.</span>
         
         <div id="projet-grille">
-            <a href="/projets/jump-start.html">
-                <div class="projet" id="projet-jumpstart">
+            
+            <a href="/projets/profile-card-component/index.html">
+                <div class="projet projet_profile_card" id="profile_card_component">
+                    <h2>Profile card</h2>
+                </div>
+            </a>
+            <a href="/projets/social-proof-section-master/index.html">
+                <div class="projet projet_social_proof" id="social_proof_section">
+                    <h2>Social proof</h2>
+                </div>
+            </a>
+            <a href="/projets/four-card-feature-section-master/index.html">
+                <div class="projet projet_four_card_feature" id="four_card">
+                    <h2>Card section</h2>
+                </div>
+            </a>
+            <a href="projets/jump-start/jump-start.html">
+                <div class="projet projet_jump_start" id="projet_jumpstart">
                     <h2>Jump start</h2>
                 </div>
             </a>
-            <a href="#">
-                <div class="projet" id="projet-megapop">
-                    <h2>Méga pop</h2>
-                </div>
-            </a>
-            <a href="#">
-                <div class="projet" id="projet-pacman">
-                    <h2>Pac man</h2>
-                </div>
-            </a>
-            <a href="#">
-                <div class="projet" id="projet-rodeopump">
-                    <h2>Rodéo pump</h2>
-                </div>
-            </a>
+            
         </div>
     </section>
 
     <section id="contact" class="container">
         <h2>Contact</h2>
-        <p class="description">Alors, on travaille ensemble ?</p>
+        <p class="description">Besoin d'information supplémentaire ?</p>
 
         <div id="btn">
             <button>

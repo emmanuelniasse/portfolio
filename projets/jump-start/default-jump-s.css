@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h3, h4{
+    text-align: center;
+}
+
+.points{
+    height: 100vh;
+    background: url('/img/points.png'), center url('/img/jump-start.png')
+    /* background: url('images/points.png'), center url('images/jump-start.png'); */
+}
+
+#bienvenue{
+    color: white;
+}
+
+#bienvenue a:hover{
+    font-weight: bold;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#flex-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    font-weight: 400;
+}
+
+nav a{
+    font-weight: 100;
+    margin-left: 5px;
+    color: white;
+
+}
+
+#bg-title{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* numero 3 */
+
+#numero3{
+    text-align: center;
+}
+
+#numero3 button{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer{
+    border-top: 3px solid black;
+    padding: 20px 0;
+}
